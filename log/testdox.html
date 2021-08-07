@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Test Documentation</title>
+        <style>
+            body {
+                text-rendering: optimizeLegibility;
+                font-variant-ligatures: common-ligatures;
+                font-kerning: normal;
+                margin-left: 2em;
+            }
+
+            body > ul > li {
+                font-family: Source Serif Pro, PT Sans, Trebuchet MS, Helvetica, Arial;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-family: Tahoma, Helvetica, Arial;
+                font-size: 3em;
+            }
+
+            ul {
+                list-style: none;
+                margin-bottom: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="AppFuelPredictorTest">App Fuel Predictor</h2>
+        <ul>
+            <li style="color: #ef2929;">❌ Form submit register</li>
+            <li style="color: #ef2929;">❌ Validate empty email register</li>
+            <li style="color: #ef2929;">❌ Validate empty email and password register</li>
+            <li style="color: #ef2929;">❌ Validate fake email register</li>
+            <li style="color: #ef2929;">❌ Validate existing user registration</li>
+            <li style="color: #ef2929;">❌ Validate password registration</li>
+            <li style="color: #ef2929;">❌ Validate and create user</li>
+            <li style="color: #555753;">✓ Form submit login</li>
+            <li style="color: #555753;">✓ Form submit without login</li>
+            <li style="color: #ef2929;">❌ Validate fake email login</li>
+            <li style="color: #ef2929;">❌ Validate empty email login</li>
+            <li style="color: #555753;">✓ Validate and authenticate login</li>
+            <li style="color: #ef2929;">❌ Validate password login</li>
+            <li style="color: #ef2929;">❌ Validate empty email and password login</li>
+            <li style="color: #555753;">✓ Authenticate login</li>
+            <li style="color: #ef2929;">❌ Form submit profile</li>
+            <li style="color: #ef2929;">❌ Form submit with not new user profile</li>
+            <li style="color: #ef2929;">❌ Create profile check allow empty full name tests</li>
+            <li style="color: #ef2929;">❌ Create profile check allow empty address tests</li>
+            <li style="color: #555753;">✓ Create profile check allow address 2 empty tests</li>
+            <li style="color: #ef2929;">❌ Create profile check allow city empty tests</li>
+            <li style="color: #ef2929;">❌ Create profile check allow state empty tests</li>
+            <li style="color: #ef2929;">❌ Create profile check allow zipcode empty tests</li>
+            <li style="color: #ef2929;">❌ Create profile check full name length validation tests</li>
+            <li style="color: #ef2929;">❌ Create profile check address 1 length validation tests</li>
+            <li style="color: #ef2929;">❌ Create profile check empty validation tests</li>
+            <li style="color: #555753;">✓ Create profile tests</li>
+            <li style="color: #ef2929;">❌ Form submit fuel qoutes</li>
+            <li style="color: #ef2929;">❌ Create fuel qoutes validation empty gallons</li>
+            <li style="color: #ef2929;">❌ Create fuel qoutes validation delivery date</li>
+            <li style="color: #555753;">✓ Create fuel qoutes</li>
+            <li style="color: #555753;">✓ Fuel qoutes history</li>
+            <li style="color: #555753;">✓ Get fuel qoutes</li>
+        </ul>
+    </body>
+</html>
